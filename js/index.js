@@ -39,7 +39,7 @@ let aleatory5 = Math.floor(Math.random() * 10);
         Swal.fire(" FELICIDADES HOY ES TU DIA DE SUERTE ")
     }
     else (
-        Swal.fire(" PERDISTE"+" EL RESULTADO FUE "+aleatory4+aleatory5)         
+        Swal.fire(" PERDISTE"+" EL RESULTADO FUE "+aleatory4+ " y "             +aleatory5)         
     )
     }, 7000);
     
